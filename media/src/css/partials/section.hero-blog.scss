@@ -1,0 +1,18 @@
+section.hero-blog {
+    .container {
+        @extend %wrapper--3;
+    }
+
+    h1 {
+        @extend %heading--9;
+    }
+
+    @media (--md-up) {
+        padding: 290px 0 75px;
+        
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
